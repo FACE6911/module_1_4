@@ -1,5 +1,5 @@
 my_string = input('Что ты сегодня делал? ')
-print(my_string.count(''))
+print(my_string.__len__())
 print(my_string.upper())
 print(my_string.lower())
 print(my_string.replace(' ', ''))
